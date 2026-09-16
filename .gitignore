@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Snapshot output -- these are point-in-time system audits, not source.
+# Keep the folder in git, ignore what actually lands in it.
+snapshots/*.json
+!snapshots/.gitkeep
+
+# Ad-hoc saved reports
+*.report.json
+report*.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local config overrides, if you ever keep a private copy per-scenario
+config/*.local.json
